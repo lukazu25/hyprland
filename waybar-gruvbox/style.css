@@ -1,0 +1,91 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: monospace;
+    font-size: 14px;
+    min-height: 0;
+}
+
+#waybar {
+    background: #282828; /* Gruvbox dark background */
+    color: #ebdbb2; /* Gruvbox light foreground */
+}
+
+#workspaces button {
+    padding: 0 10px;
+    margin-right: 3px;  /* Added spacing between workspace buttons */
+    background: #3c3836; /* Gruvbox dark gray */
+    color: #ebdbb2; /* Gruvbox light foreground */
+    border-radius: 4px; /* Added rounding */
+}
+
+#workspaces button:hover {
+    background: #fabd2f; /* Gruvbox yellow */
+    color: #282828; /* Dark text for contrast */
+}
+
+#workspaces button.active {
+    background: #fb923c; /* Gruvbox orange */
+    color: #282828;
+}
+
+/* Common styles for system modules */
+#memory, #cpu, #network, #pulseaudio, #tray, #language, #battery, #clock {
+    padding: 0 10px;
+    margin: 0 5px;
+    color: #ebdbb2;
+    border-radius: 4px; /* Added rounding */
+}
+
+/* Individual backgrounds */
+#memory {
+    background: #504945; /* Gruvbox dark gray-brown */
+}
+
+#cpu {
+    background: #504945;
+}
+
+#network {
+    background: #504945;
+}
+
+#network.disconnected {
+    background: #cc241d; /* Gruvbox red */
+    color: #ebdbb2;
+}
+
+#pulseaudio {
+    background: #504945;
+}
+
+#pulseaudio.muted {
+    background: #cc241d; /* Gruvbox red */
+}
+
+#tray {
+    background: #504945;
+}
+
+#language {
+    background: #504945;
+}
+
+/* Battery styling */
+#battery {
+    background: #504945;
+}
+
+#battery.warning {
+    background: #fabd2f; /* Gruvbox yellow for warning */
+    color: #282828;
+}
+
+#battery.critical {
+    background: #cc241d; /* Gruvbox red for critical */
+    color: #ebdbb2;
+}
+
+#clock {
+    background: #504945;
+}
