@@ -41,7 +41,7 @@
 
 	"hyprland/language": {
 		"format": "󰌏  {short}",
-		"max-lenght": 2
+		"max-length": 5
 	},
 
 	"pulseaudio": {
