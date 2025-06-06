@@ -1,5 +1,5 @@
 * {
-	font-family: JetBrainsMono, Symbols Nerd Font;
+	font-family: JetBrainsMono Nerd Font;
 	font-weight: bold;
 	font-size: 16px;
 	min-height: 0px;
@@ -80,23 +80,22 @@ button:hover {
 }
 
 #battery {
-  padding: 2px 15px;
-  margin: 5px;
-  color: @fl;
-  background-color: @bg2;
-  border: none;
-  border-radius: 20px;
+	padding: 2px 15px;
+	margin: 5px;
+	color: @fl;
+	background-color: @bg2;
+	border: none;
+	border-radius: 20px;
 }
 #battery.warning {
-  color: @yellow;
+	color: @yellow;
 }
 #battery.critical {
-  color: @red;
+	color: @red;
 }
 #battery:hover {
-  color: @yellow;
+	color: @yellow;
 }
-
 
 #memory {
 	padding: 2px 15px;
@@ -110,13 +109,7 @@ button:hover {
 	color: @yellow;
 }
 
-},
-    "format": "{icon}  {capacity}%",
-    "format-full": "{icon}  {capacity}%",
-    "format-charging": "  {capacity}%",
-    "format-plugged": "  {capacity}%",
-    "format-alt": "{time} {icon}",
-    "format-icons": ["", "", "#tray {
+#tray {
 	padding: 2px 15px;
 	margin: 5px;
 	background-color: @bg2;
