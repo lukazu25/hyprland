@@ -21,7 +21,7 @@ sudo cp config ~/.config/wofi/
 copy wofi configs to wofi directory
 ```bash
 sudo cp style.css ~/.config/wofi/
-
+```
 copy sway configs to sway directory
 ```bash
 sudo cp -r swaync/* ~/.config/swaync/
